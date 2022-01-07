@@ -1,0 +1,222 @@
+{
+  "wrapper": "div.shopify-section-wrapper.section",
+  "sections": {
+    "sidebar": {
+      "type": "product-sidebar",
+      "settings": {
+        "toggle": false
+      }
+    },
+    "main": {
+      "type": "product-template",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "form",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "product_breadcrumb": false,
+        "media_position": "is-flex-row",
+        "set_product_height": false,
+        "product_height": 500,
+        "video_looping": false,
+        "product_thumbs": true,
+        "gallery_arrows": true,
+        "enable_product_lightbox": true,
+        "activate_zoom": true,
+        "slideshow_speed": 0,
+        "slideshow_animation": "slide",
+        "thumbnail_position": "bottom",
+        "enable_thumbnail_slider": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "rv_title": "Recently viewed products",
+        "rv_products_style": "grid",
+        "rv_max_display": 6,
+        "rv_per": 4,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_style": "grid",
+        "product_recommendations_heading": "You may also like",
+        "products_per_row": 3,
+        "recommended_products_limit": 4
+      }
+    },
+    "1635857293e36520c4": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Join Thousands Of Ex-knee Pain Sufferers And Go Through Your Daily Life Like You Used To",
+        "content": "<p>They Miracle Patches come in the form of a small, light and easy to wear knee-patch, with a topical analgesic. Designed for maximum absorption in the knee.<\/p><p>All you have to do is remove the release paper, stick the patch on your painful part and let the ingredients do its work.<\/p><p>Once you apply it, you’ll find that it quickly reduces swelling and pain within minutes, works better every day and in most cases cures the knee-pain within 2-3 weeks.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "align_left",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16358582611fe3b040": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "<p>CLICK ADD TO CART TO START RELIEVING AND PROTECTING YOUR KNEES TODAY<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "163585830054112978": {
+      "type": "image-text",
+      "blocks": {
+        "163585830054112978-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/knee.jpg",
+            "image_crop": "none",
+            "title": "Benefits",
+            "text": "<p>- Reduce or remove the knee pain so you can move worry-free<\/p><p>- Thin and lightweight for comfortable wear<\/p><p>- All natural ingredients from mother nature<\/p><p>- Wear for 6-8 hours<\/p><p>- Designed for maximum absorption in the knee for fast and lasting relief<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        },
+        "163585830054112978-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-hero-presentation-1024x1024.jpg",
+            "image_crop": "none",
+            "title": "Ingredients",
+            "text": "<p>Wormwood, Wild Celery, Reticulate Millettia, Safflower, Saline Cistanche, Davallia Mariesii, Spignet, Chain Fern, Corydalis and Borneol<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        },
+        "09c85944-9d54-47de-8605-6733f257197b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/H66ecade18218425f9f0820eed6bdbac9n_copy.jpg",
+            "image_crop": "none",
+            "title": "How to use",
+            "text": "<p>Simply remove the release paper and apply the patch on your troubled area of the skin for maximum effect. Wear up to 6-8 hours.<\/p><p><\/p><p><strong>Important Note: <\/strong>Make sure to shave your knee before applying the patch or else it won't stick so well and it will pull your hairs!<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "163585830054112978-0",
+        "163585830054112978-1",
+        "09c85944-9d54-47de-8605-6733f257197b"
+      ],
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1635858533bda3c5d1": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Our Ironclad 30-day, Money-Back Guarantee",
+        "content": "<p>Since the Miracle Patch has proven results to thousands of people, we believe strongly in its value. Therefore, you can try them out now <strong>risk-free and with a money-back guarantee<\/strong> if they don’t give results after 4 weeks of wearing them daily. <strong>No questions asked. <\/strong>If you don’t think “The Miracle Patch” is worth what you’re paying today, just contact our customer service at info@miraclepatch.nl.<\/p><p>Make your choice by clicking above, enter your payment details on our secure order form, and place the order now. We will ship your patches directly to your home. <\/p><p>Please consult with a doctor if you are pregnant or nursing before using this product. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "163585989874bd6d06": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Customer Reviews",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "settings": {}
+    },
+    "164068998743601993": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "<p>This product is for educational purposes only. The statements on this page have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "sidebar",
+    "main",
+    "recently-viewed",
+    "recommendations",
+    "1635857293e36520c4",
+    "16358582611fe3b040",
+    "163585830054112978",
+    "1635858533bda3c5d1",
+    "163585989874bd6d06",
+    "loox-product-reviews-app-section",
+    "164068998743601993"
+  ]
+}

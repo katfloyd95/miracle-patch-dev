@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-faq-template",
+      "blocks": {
+        "block-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Frequently Asked Questions"
+          }
+        },
+        "block-2": {
+          "type": "Content",
+          "settings": {
+            "title": "What are your shipping and processing times?",
+            "subtitle": "<p>Netherlands: Next day (except Sunday & Monday).<\/p><p>Europe & UK: 3 - 5 workdays.<\/p><p><\/p><p>Unfortunately we don't ship outside of Europe at the moment.<br\/><br\/><strong>PROCESSING TIME:<\/strong><br\/>Orders can sometimes take 1-2 days to process after placing the order before shipping out.  We do not ship on Sunday.<\/p>"
+          }
+        },
+        "block-3": {
+          "type": "Content",
+          "settings": {
+            "title": "Where is my tracking number? My tracking number doesn't work",
+            "subtitle": "<p>When your items are shipped out, you should receive an automatic notification from the system via email providing you with a tracking number.<\/p><p>If you haven't received one or if the tracking number doesn't work, no worries. Contact us and we'll solve it! <\/p><p>If your tracking number doesn't work or has errors, it could be that your shipping <strong>hasn't been<\/strong> picked up yet by the courier or the courier has not scanned it as received. <\/p><p>Please allow up to 24 hours for your tracking number to be logged by the shipping courier.<\/p>"
+          }
+        },
+        "block-4": {
+          "type": "Content",
+          "settings": {
+            "title": "Multiple Packages",
+            "subtitle": "<p>Don’t worry, it can be that your order has been shipped separately. We do this to save shipping costs so that our customers can keep enjoying free shipping. <br\/><\/p><p>Once an order is submitted and fulfilled, each package in the order will receive a confirmation email with its own tracking number. Since items are shipping separately, they can arrive separately; don't be alarmed by this! The provided tracking information will contain updates and arrival estimates for each piece.<\/p>"
+          }
+        },
+        "block-5": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Section"
+          }
+        },
+        "block-6": {
+          "type": "Content",
+          "settings": {
+            "title": "Where is my order?",
+            "subtitle": "<p>As soon as your order has been placed, in the background we are working on processing your order. In some instances the delivery may take longer than the standard shipping times stated above. As soon as it ships, you will receive an email with a tracking number. It may still be a day or two before you see any movement, since the package label sometimes gets printed in anticipation of your order shipping out.<\/p><p>Please also allow a few extra days for shipping during the holiday season as we are not responsible for shipping delays. Please contact us if your package is taking too long to arrive and we will work with you to resolve any situation. <\/p><p>We are not responsible for orders that are confirmed as delivered by the postal service tracking number, but if your tracking status is delivered and you have not received your order we will expedite you another product free of charge.<\/p>"
+          }
+        },
+        "block-7": {
+          "type": "Content",
+          "settings": {
+            "title": "Tracking says my package was delivered, but I haven't received my order",
+            "subtitle": "<p>If your tracking information is showing as \"delivered\" but you cannot locate your package we suggest checking around the address, including all entrances, and behind anything that could 'hide' the package from passers by, as well as with immediate neighbors or a leasing office\/mail room in your building to see if they may have received it by mistake. <\/p><p>Additionally, some drivers will scan packages as \"delivered\" as they start to service an entire street, block, or neighborhood. In this case, the scan would be premature and additional time would be needed to complete delivery.<\/p><p>After 24 hours of being marked as \"delivered\" and you still do not have the package, please contact our Customer Service team for further help, verifying the correct address information as you do so.<\/p>"
+          }
+        },
+        "block-8": {
+          "type": "Content",
+          "settings": {
+            "title": "Do you ship worldwide? How much does shipping cost?",
+            "subtitle": "<p>At this moment we only ship within Europe.<\/p>"
+          }
+        },
+        "12e854e1-3baa-4678-bea8-3ca04ac4b4be": {
+          "type": "Content",
+          "settings": {
+            "title": "My order arrived damaged, can I get a refund?",
+            "subtitle": "<p>We are sorry to hear that. Sometimes products may become damaged in transit. If that happened to your order, please email us at info@miraclepatch.nl with pictures of the damage and we will replace your order or issue you a full refund immediately. <\/p>"
+          }
+        },
+        "973a9c0b-b13c-4b87-bde6-1e46ed640a99": {
+          "type": "Content",
+          "settings": {
+            "title": "I am not satisfied with my order, can I get a refund?",
+            "subtitle": "<p>We offer such a stellar refund policy because we truly believe in our products and want our customers to give them an honest and fair shot. Refund requests will not be processed earlier than two weeks after the product has been delivered. <\/p><p>We will then provide the address to our return center, which is based in The Netherlands. Shipping fees for returns and exchanges are the responsibility of the customer. <\/p><p>Once we receive a return, please allow between 7-10 business days for processing. After initiating the refund, funds can take 3-7 business days to post, which is dependent on the original payment source. You can expect an email once your return has been received and processed.<\/p>"
+          }
+        },
+        "cc634d03-3205-4f16-bfad-dcdea28f2fa8": {
+          "type": "Content",
+          "settings": {
+            "title": "How do I contact you?",
+            "subtitle": "<p>For fastest response, please email us at info@miraclepatch.nl. We will get back to you within 36 hours. Unfortunately we do not have a customer service hotline at the moment.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5",
+        "block-6",
+        "block-7",
+        "block-8",
+        "12e854e1-3baa-4678-bea8-3ca04ac4b4be",
+        "973a9c0b-b13c-4b87-bde6-1e46ed640a99",
+        "cc634d03-3205-4f16-bfad-dcdea28f2fa8"
+      ],
+      "settings": {
+        "wide_display": true,
+        "show_banner": true,
+        "image": "shopify:\/\/shop_images\/portrait-happy-man-using-digital-tablet-4.jpg",
+        "mobile_image_crop": "none",
+        "caption_content_background": "original",
+        "pretext": "",
+        "title": "Frequently Asked Questions",
+        "subtitle": "",
+        "text_position": "left",
+        "text_align": "left",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

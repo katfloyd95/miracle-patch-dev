@@ -1,0 +1,22 @@
+{% case section.settings.feature_block_id %}
+  
+{% endcase %}
+{% schema %}
+  {
+    "name": "Icon block",
+    "settings": [
+      {
+        "type": "select",
+        "id": "feature_block_id",
+        "label": "Icon block",
+        "options": [{"value":"","label":"None"}]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Guarantees & Features Icons",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}

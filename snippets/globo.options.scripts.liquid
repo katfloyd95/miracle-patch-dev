@@ -1,0 +1,111 @@
+<script>
+  var Globo = Globo || {}
+  Globo.Options = Globo.Options || {}
+  Globo.Options.url = "https://option.globosoftware.net"
+  Globo.Options.themeInfo = {"id":127777571074,"name":"Turbo-portland","role":"main","theme_store_id":null,"theme_name":"Turbo","theme_version":"7.0.0"}
+  {% raw %}
+  Globo.Options.shop = {
+    id : 15248,
+    url : 'mircale-patch.myshopify.com',
+    settings: {"general":{"redirect_to_cart":true,"disable_quantity_and_remove":true},"display":{"app_position":"after_variant","show_tooltip":true,"border_style":"classic","alignment":"left","app_background_color":"#fff","label_text_color":"#000","required_text_color":"#ff0000","helptext_color":"#737373","total_text_color":"#202223","total_text_money_color":"#008000","input_text_color":"#000","input_border_color":"#9a9a9a","input_background_color":"#fff","select_text_color":"#000","select_border_color":"#9a9a9a","select_background_color":"#fff","choicelist_text_color":"#000","choicelist_text_hover_color":"#000","choicelist_text_active_color":"#000","choicelist_hover_color":"#eb1256","choicelist_active_color":"#eb1256","button_text_color":"#000","button_text_hover_color":"#eb1256","button_text_active_color":"#fff","button_background_color":"#fff","button_background_hover_color":"#fff","button_background_active_color":"#eb1256","swatch_border_color":"#ddd","swatch_border_hover_color":"#eb1256","swatch_border_active_color":"#eb1256","custom_css":null},"price":{"label_addon":"(+ {{addon}})","show_for_input":true,"show_for_option":true,"show_addon_message":true,"add_addon_to_product_price":false},"translation":{"choose_file":"Choose File","or_drop_file_to_upload":"or drop file to upload","selection_will_add":"Selections will add {{addon}} to the price","items_are_no_longer_available":"Some items are no longer available. Please try again later.","buynow_not_allowed":"This product cannot be purchased using this checkout method. Please add the item to cart, then proceed to checkout from the cart.","required":"This field is required","invalid":"Invalid","invalid_number":"Invalid number","char_limit":"Please enter less than or equal to {{character_limit}} characters","min_value":"Please enter a value greater than or equal to {{min_value}}","max_value":"Please enter a value less than or equal to {{max_value}}","min_selection":"Please select at least {{min_selection}} options","max_selection":"Please select at maximum {{max_selection}} options","exactly_selection":"Please select exactly {{exactly_selection}} options","file_uploading":"Uploading...","file_not_allowed":"File not allowed","file_uploaded_successfully":"File uploaded successfully"}},
+    pricing: {
+      features: {
+        fileUpload: 2,
+        removeCopyright: false
+      }
+    }
+  }
+  {% endraw %}
+  
+  Globo.Options.money_format = "{{ shop.money_format | replace: '"', "'" }}";
+  {% if product %}
+  Globo.Options.product = {{ product | json }}
+  Globo.Options.product.collections = {{ product.collections | map: 'id' | json }}
+  {% endif %}
+  {% if customer %}
+  Globo.Options.customer = {
+    id: '{{ customer.id }}',
+    name: '{{ customer.name }}',
+    email: '{{ customer.email }}'
+  }
+  {% endif %}
+  {% if cart %}
+  Globo.Options.cart = {{ cart | json }}
+  {% endif %}
+  Globo.Options.page = {
+    title: document.title,
+    href: window.location.href,
+    type: '{{request.page_type}}'
+  }
+  
+  Globo.Options.options = []
+</script>
+
+<script type="text/javascript">
+  document.addEventListener('GLOBO_OPTIONS_RENDERED', function (e_render) {
+    (function (themeJQuery) {
+      document.addEventListener('globo.options.event.product.added', function (e) {
+        Globo.Options.addToCartCallback(e.detail.addedItem, e.detail.quantity, themeJQuery);
+      });
+      if (typeof themeJQuery == 'function') {
+        // Editions theme
+        if (themeJQuery('.product-list').length) {
+          themeJQuery('.product-list').on('preload-images', function() {
+            var event;
+            if (typeof(Event) === 'function') {
+              event = new Event('collectionUpdate');
+            } else {
+              event = document.createEvent('Event');
+              event.initEvent('collectionUpdate', true, true);
+            }
+            window.dispatchEvent(event);
+          });
+        }
+      }
+    }((window.jQuery || window.$)))
+  });
+</script>
+
+<script src="{{ 'globo.options.data.js' | asset_url }}"></script>
+
+<link rel="stylesheet" href="{{ 'globo.options.swatches.css' | asset_url }}">
+
+<style>
+  [data-gpo-is-enabled="true"][data-gpo-cart-hide-additional-payment-button="true"] [data-shopify="dynamic-checkout-cart"],
+  [data-gpo-is-enabled="true"][data-gpo-product-hide-additional-payment-button="true"] [data-shopify="payment-button"],
+  button.gpo-original-shopify-button,
+  input.gpo-original-shopify-button,
+  input#addToCart.gpo-original-shopify-button,
+  a.gpo-original-shopify-button,
+  .gpo-original-shopify-button {
+    display: none !important;
+  }
+  .gpo-original-checkout-button {
+    display: none !important;
+  }
+  button.gpo-clone-checkout-button,
+  input.gpo-clone-checkout-button,
+  a.gpo-clone-checkout-button {
+    cursor: pointer !important;
+  }
+  .cart-flyout a.gpo-clone-checkout-button,
+  #mini-cart form.cart a.gpo-clone-checkout-button {
+    display: block !important;
+  }
+  .gpo-original-atc-button {
+    display: none !important;
+  }
+  .gpo-original-payment-button {
+    display: none !important;
+  }
+  .gpo-hidden {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+</style>
+
+{% capture GPO_appScript %}{{ 'globo.options.index.js' | asset_url }}{% endcapture %}
+{% assign GPO_assetsPath = GPO_appScript | split: 'globo.options.index.js' | first %}
+<script>Globo.Options.__webpack_public_path__ = "{{ GPO_assetsPath }}globo.options."</script>
+<script src="{{GPO_appScript}}" async></script>

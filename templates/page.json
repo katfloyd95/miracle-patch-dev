@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "16394151560d47a4e7": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/group-people-hugging-each-other-park-1800.jpg",
+        "pretext": "",
+        "title": "Our Happy Customers",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image": "shopify:\/\/shop_images\/group-people-hugging-each-other-park-1800-mobile_4713bd7e-520c-4ecc-80aa-f82e934b2020.jpg",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "16394151570574ae8b": {
+      "type": "apps",
+      "settings": {}
+    }
+  },
+  "order": [
+    "16394151560d47a4e7",
+    "main",
+    "16394151570574ae8b"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "sections": {
+    "image-with-text-overlay-1": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/family-together-winter-park-1800x1000_2d788527-1622-4118-ac0a-01532ee9ec3d.jpg",
+        "pretext": "",
+        "title": "A Natural And Comfortable Way To Relieve Knee Pain",
+        "subtitle": "<p>Walk Through Winter Without Worry Once Again<\/p>",
+        "button1": "Shop Now",
+        "button1_link": "shopify:\/\/products\/doctors-choice-miracle-patch-30pcs",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "left",
+        "text_align": "left",
+        "caption_content_background": "original",
+        "mobile_image": "shopify:\/\/shop_images\/family-together-winter-park-mobile-1800x1000_0b2bf9a9-314b-4c41-8273-6827c67a220d.jpg",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1636106580a4b1310f": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Regain Confidence In Your Knees. No Matter How Long You've Had The Trouble Or Your Age.",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "image-text-1": {
+      "type": "image-text",
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-hero-presentation-1024x1024.jpg",
+            "image_crop": "none",
+            "title": "More Than Just A Simple Patch",
+            "text": "<p>Our carefully selected natural healing ingredients make a powerful topical analgesic that gets absorbed deeply into your skin and tissue to fight inflammation. Our Miracle Patches have helped over +2500 people reduce, and in many cases, even completely remove their knee pain. <\/p>",
+            "button_label": "Get Yours Today",
+            "link": "shopify:\/\/products\/doctors-choice-miracle-patch-30pcs",
+            "bg_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "block-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_crop": "none",
+            "title": "Your headline",
+            "text": "<p>It comes in the form of a small and light knee-patch, designed for maximum absorption in the knee. All you have to do is stick it on the painful part, let the ingredients do its work and enjoy your life like you used to. <\/p><p><\/p><p>Once you apply it, you’ll find that it quickly reduces swelling and pain within minutes, works better every day and <em><strong>in most cases<\/strong><\/em> <strong>cures the knee-pain within 2-3 weeks.<\/strong> <\/p><p><\/p><p><strong>For those with Osteoarthritis, <\/strong>the cure gets absorbed directly through the skin by the tissue in the knee to prevent the body from making the so-called ‘Cytokines’, an evil protein that causes inflammation in the body. Resulting in a remarkable reduction in swelling and pain.<\/p>",
+            "button_label": "View all",
+            "link": "",
+            "bg_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1635855803d4139b10": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "1635855803d4139b10-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>It started with just an annoying pain in my knee, I had kind of just ignored it, but it got worse and worse. I tried lots of creams and exercises to relieve and cure the pain. Eventually the doctor gave me a knee brace, it helped but it was uncomfortable. My colleague recommended these patches, I was skeptical, but decided to give them a try. To my surprise they worked really well and reduced my pain day by day. Unlike the clunky knee brace I used to wear, I don’t even notice I have the patch on me! - Jessica D.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "1635855803d4139b10-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>I used to get anxious waiting for the train, not being sure if I would get a seat. It made me very nervous, because I was in pain standing the whole time. I came across an advertisement for the Miracle Patches and ordered a box. They help me so much, I put them on every morning and comfortably go through my daily routine. - Sander P.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "1635855803d4139b10-0",
+        "1635855803d4139b10-1"
+      ],
+      "settings": {
+        "title": "Success Stories",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1636106605bcdbf4a3": {
+      "type": "image-text",
+      "disabled": true,
+      "blocks": {
+        "1636106605bcdbf4a3-0": {
+          "type": "image",
+          "settings": {
+            "image_crop": "none",
+            "title": "Get To Know Doctor's Choice",
+            "text": "<p>We’re an independent, family-run British business – a name people have trusted for 50 years for safe, balanced and effective support. Our team brings together decades of experience, all with the goal of helping you to be at your best, day-after-day.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636106605bcdbf4a3-0"
+      ],
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay-1",
+    "1636106580a4b1310f",
+    "image-text-1",
+    "1635855803d4139b10",
+    "1636106605bcdbf4a3"
+  ]
+}

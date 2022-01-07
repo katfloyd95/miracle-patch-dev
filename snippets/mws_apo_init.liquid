@@ -1,0 +1,45 @@
+
+{% if content_for_header contains "mws_apo_installed.js" %}
+{% comment %}AUTO-GENERATED FILE. DO NOT MODIFY.{% endcomment %}
+
+<link href="https://apo-front.mageworx.com/bundle.css?t=1641207502" rel="stylesheet" type="text/css" media="all" />
+
+<script type="text/javascript"></script>
+<script type="text/javascript">
+{% if template.name == 'product' and product.variants.size > 0 and product.selected_or_first_available_variant.title contains "#MWS Options" %}
+if (window.location.origin) {
+  {% if product.variants[0].title contains "#MWS Options" and product.handle contains "mws_apo_" %}
+  window.location.href=window.location.protocol + '//' + window.location.host + "/products/{{ product.handle | replace: 'mws_apo_', '' }}";
+  {% elsif product.variants[0].title contains "#MWS Options" %}
+  window.location.href=window.location.protocol + '//' + window.location.host + "/products/";
+  {% else %}
+  window.location.href=window.location.protocol + '//' + window.location.host + "/products/{{ product.handle }}?variant={% for variant in product.variants limit:1%}{{variant.id}}{% endfor %}";
+  {% endif %}
+}
+{% endif %}
+window.mwApoInit = {
+  product: {{ product | json }},
+  cart: {{ cart | json }},
+  template_name: {{ template.name | json }},
+  shop_domain: {{ shop.permanent_domain | json }},
+  shop_money_format: {{ shop.money_format  | json }},
+  shop_money_with_currency_format: {{ shop.money_with_currency_format  | json }},
+  cache_hash: 1641207502,
+  settings: {
+    currency_format: "amount",
+        currency_html_format: "without_currency",
+            calendar_format: "m/d/Y",
+        calendar_disable_mobile: "no",
+        selectors: {"product":{"place_options":"","add_to_cart":"","quantity":"","price":"","compare_price":"","gallery_container":"","gallery_image":"","variants":"","visible_variants":"","form":"","buy_it_now":""},"cart":{"lines":"","line_quantity":"","line_remove":""},"common":{"own_variants":""}},
+    translations: {"i18n_configure_link":"Edit Options","i18n_separator_title_value":",","i18n_separator_sku":"-","i18n_modal_cancel_btn":"Cancel","i18n_modal_submit_btn":"Submit","i18n_qty_label":"Qty: ","i18n_characters_left":"Characters left: ","i18n_per_character":"per character","i18n_default_select_title":"-- Please Select --","i18n_select_compare_at_title":"(Compare at: [compare_at_price])","i18n_allowed_extensions":"Allowed extensions: ","i18n_required_option_warning":"\"[option_name_or_option_title]\" is required","i18n_selection_limit_warning":"Selection limit, min=[option_limit_min]; max=[option_limit_max]","i18n_number_range_warning":"Number range, min=[option_range_min]; max=[option_range_max]","i18n_length_range_warning":"Length range, min=[option_length_min]; max=[option_length_max]"}
+  }
+
+};
+</script>
+
+{% render 'mws_apo_helper' %}
+
+<script async src="https://apo-front.mageworx.com/bundle.js?t=1641207502"></script>
+
+
+{% endif %}
